@@ -1,0 +1,131 @@
+{
+  "editor.fontFamily": "Cascadia Code",
+  "editor.fontWeight": "normal",
+  "editor.fontLigatures": false,
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "none",
+  "editor.cursorBlinking": "solid",
+  "editor.cursorStyle": "line",
+  "editor.cursorWidth": 3,
+  "files.autoSave": "onFocusChange",
+  "editor.fontSize": 14,
+  "workbench.colorCustomizations": {
+    "editorCursor.foreground": "#F0F0F0",
+  },
+  "window.menuBarVisibility": "toggle",
+  "breadcrumbs.enabled": false, //reducir el tamaño del menú de la izq
+  "editor.matchBrackets": "never",
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "editor.wordWrap": "on",
+  "bracket-pair-colorizer-2.colors": [
+    "#FFF",
+    "#FFF",
+    "#FFF"
+  ],
+  "bracket-pair-colorizer-2.forceUniqueOpeningColor": true,
+  "bracket-pair-colorizer-2.showBracketsInGutter": true,
+  "bracket-pair-colorizer-2.showHorizontalScopeLine": false,
+  "editor.wordWrapColumn": 180,
+  "editor.occurrencesHighlight": false, //elimina que le resalte la palabra al hacer 1 click
+  "editor.multiCursorModifier": "ctrlCmd", // multi cursor
+  "editor.hover.enabled": true, //se elimina el color y la información al hacer hover en las palabras.
+  "git.enableSmartCommit": true,
+  "workbench.colorTheme": "Nord",
+  "emmet.showSuggestionsAsSnippets": true,
+  "terminal.integrated.cursorStyle": "block",
+  "terminal.integrated.cursorWidth": 8,
+  "terminal.integrated.fontFamily": "Cascadia Code",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontWeight": "normal",
+  "terminal.integrated.letterSpacing": 1,
+  "files.associations": {},
+  "editor.tabCompletion": "on",
+  "editor.acceptSuggestionOnEnter": "off",
+  "security.workspace.trust.untrustedFiles": "open",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.tabSize": 2,
+  "telemetry.telemetryLevel": "off",
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/env": true,
+    "**/venv": true
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true,
+    "**/env/**": true,
+    "**/venv/**": true,
+    "env-*": true
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "workbench.iconTheme": "vscode-icons-mac",
+  "editor.overviewRulerBorder": false, // removes border from overview ruler (located on the right, same position as the scrollbar)
+  "workbench.activityBar.visible": false, // removes the activity bar (the 4 icons at the left of the screen), so now you will have to open the explorer, git, debugger and extension with shortcuts or through the Command Palette
+  "workbench.editor.showIcons": false, // removes icon from opened files in tabs
+  "editor.folding": false, // removes the folding feature
+  "explorer.openEditors.visible": 0, // removes the open editors section at the top of the sidebar, you can see the opened files with ⌘ + ⌥ + Tab
+  "editor.smoothScrolling": true,
+  "editor.trimAutoWhitespace": true,
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.startupEditor": "none",
+  "workbench.tree.renderIndentGuides": "none",
+  "editor.renderFinalNewline": false,
+  "editor.renderLineHighlightOnlyWhenFocus": false,
+  "diffEditor.ignoreTrimWhitespace": true,
+  "explorer.compactFolders": false,
+  "vsicons.presets.hideExplorerArrows": true, //hidden arrows left folders
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.colorDecorators": false, // Elimina los recuadros de color
+  "files.trimFinalNewlines": true, // Remueve las líneas extras al final del archivo
+  "files.trimTrailingWhitespace": true, // Remueve los espacios extras al final de una línea
+  "explorer.sortOrder": "type", // Ordena los archivos y carpetas por sus extensiones, en orden alfabético
+  "explorer.autoReveal": false, // Evita que se desplieguen los archivos al seleccionarlos
+  "javascript.validate.enable": false, // Deshabilita la validación de JS
+  //Vim Settings
+  "editor.lineNumbers": "relative",
+  "eslint.format.enable": true,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "eslint.validate": [
+    "javascript",
+    "typescript",
+    "javascriptreact",
+    "typescriptreact"
+  ],
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "eslint.alwaysShowStatus": true,
+  "eslint.debug": true,
+  "eslint.trace.server": "verbose",
+  "eslint.packageManager": "npm",
+  "eslint.probe": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "update.showReleaseNotes": false,
+  "update.mode": "manual",
+  "window.zoomLevel": 1, //-.05
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "css.lint.unknownAtRules": "ignore",
+  "extensions.ignoreRecommendations": true,
+  "minify.html": {
+    "removeComments": true
+  }
+}
