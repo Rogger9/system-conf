@@ -9,8 +9,9 @@
   "editor.cursorWidth": 3,
   "files.autoSave": "onFocusChange",
   "editor.fontSize": 14,
+  "workbench.iconTheme": "vscode-icons-mac",
   "workbench.colorCustomizations": {
-    "editorCursor.foreground": "#F0F0F0",
+    "editorCursor.foreground": "#F0F0F0"
   },
   "window.menuBarVisibility": "toggle",
   "breadcrumbs.enabled": false, //reducir el tamaño del menú de la izq
@@ -19,9 +20,10 @@
   "editor.detectIndentation": false,
   "editor.wordWrap": "on",
   "bracket-pair-colorizer-2.colors": [
-    "#FFF",
-    "#FFF",
-    "#FFF"
+    // "#FFF",
+    // "#FFF",
+    // "#FFF"
+    "#ccc"
   ],
   "bracket-pair-colorizer-2.forceUniqueOpeningColor": true,
   "bracket-pair-colorizer-2.showBracketsInGutter": true,
@@ -31,7 +33,7 @@
   "editor.multiCursorModifier": "ctrlCmd", // multi cursor
   "editor.hover.enabled": true, //se elimina el color y la información al hacer hover en las palabras.
   "git.enableSmartCommit": true,
-  "workbench.colorTheme": "Nord",
+  "workbench.colorTheme": "Gruvbox ish Dark Soft",
   "emmet.showSuggestionsAsSnippets": true,
   "terminal.integrated.cursorStyle": "block",
   "terminal.integrated.cursorWidth": 8,
@@ -39,7 +41,6 @@
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.fontWeight": "normal",
   "terminal.integrated.letterSpacing": 1,
-  "files.associations": {},
   "editor.tabCompletion": "on",
   "editor.acceptSuggestionOnEnter": "off",
   "security.workspace.trust.untrustedFiles": "open",
@@ -61,7 +62,6 @@
     "env-*": true
   },
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "workbench.iconTheme": "vscode-icons-mac",
   "editor.overviewRulerBorder": false, // removes border from overview ruler (located on the right, same position as the scrollbar)
   "workbench.activityBar.visible": false, // removes the activity bar (the 4 icons at the left of the screen), so now you will have to open the explorer, git, debugger and extension with shortcuts or through the Command Palette
   "workbench.editor.showIcons": false, // removes icon from opened files in tabs
@@ -69,21 +69,20 @@
   "explorer.openEditors.visible": 0, // removes the open editors section at the top of the sidebar, you can see the opened files with ⌘ + ⌥ + Tab
   "editor.smoothScrolling": true,
   "editor.trimAutoWhitespace": true,
-  "workbench.editor.tabSizing": "shrink",
+  "workbench.editor.tabSizing": "fit",
   "workbench.startupEditor": "none",
   "workbench.tree.renderIndentGuides": "none",
   "editor.renderFinalNewline": false,
   "editor.renderLineHighlightOnlyWhenFocus": false,
   "diffEditor.ignoreTrimWhitespace": true,
   "explorer.compactFolders": false,
-  "vsicons.presets.hideExplorerArrows": true, //hidden arrows left folders
+  "vsicons.presets.hideExplorerArrows": false, //hidden arrows left folders
   "editor.hideCursorInOverviewRuler": true,
   "editor.colorDecorators": false, // Elimina los recuadros de color
   "files.trimFinalNewlines": true, // Remueve las líneas extras al final del archivo
   "files.trimTrailingWhitespace": true, // Remueve los espacios extras al final de una línea
   "explorer.sortOrder": "type", // Ordena los archivos y carpetas por sus extensiones, en orden alfabético
   "explorer.autoReveal": false, // Evita que se desplieguen los archivos al seleccionarlos
-  "javascript.validate.enable": false, // Deshabilita la validación de JS
   //Vim Settings
   "editor.lineNumbers": "relative",
   "eslint.format.enable": true,
@@ -95,7 +94,8 @@
     "javascript",
     "typescript",
     "javascriptreact",
-    "typescriptreact"
+    "typescriptreact",
+    "css"
   ],
   "[javascript]": {
     "editor.defaultFormatter": "dbaeumer.vscode-eslint"
@@ -107,6 +107,9 @@
     "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   },
   "[javascriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[css]": {
     "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   },
   "eslint.alwaysShowStatus": true,
@@ -123,9 +126,12 @@
   "update.mode": "manual",
   "window.zoomLevel": 1, //-.05
   "bracket-pair-colorizer-2.depreciation-notice": false,
-  "css.lint.unknownAtRules": "ignore",
+  // "css.lint.unknownAtRules": "ignore",
   "extensions.ignoreRecommendations": true,
+  //Minify
   "minify.html": {
     "removeComments": true
-  }
+  },
+  //Error lens
+  "errorLens.scrollbarHackEnabled": true
 }
