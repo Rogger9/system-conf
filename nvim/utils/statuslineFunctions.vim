@@ -49,3 +49,7 @@ let g:currentmode={
   \ '!'  : 'Shell',
   \ 't'  : 'Terminal'
   \}
+
+hi User1 guifg=#FFFFFF guibg=#3D7A95 gui=BOLD
+hi User2 guifg=#FFFFFF guibg=#4C566A gui=BOLD
+hi User3 guifg=#A995C6 guibg=#4C566A gui=BOLD

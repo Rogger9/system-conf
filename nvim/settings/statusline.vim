@@ -1,4 +1,5 @@
 " Custom
-source ~/.config/nvim/utils/statuslineFunctions.vim
+so ~/.config/nvim/utils/statuslineFunctions.vim
 
-set statusline=\ \ %{StatuslineGitBranch()}\ %{g:currentmode[mode()]}\ %m\ %{expand('%:~:.')}\ %=\ %{FileSize()}\ \ %Y\ %l,%c\ %p%%\ 
+set statusline=\%3*\ \ %{StatuslineGitBranch()}\ %1*%{g:currentmode[mode()]}%2*\ %m\ %{expand('%:~:.')}\ %=\ %{FileSize()}\ \ %Y\ %l,%c\ %p%%\ %*
+" set statusline=\ \ %{StatuslineGitBranch()}\ %{g:currentmode[mode()]}\ %m\ %{expand('%:~:.')}\ %=\ %{FileSize()}\ \ %Y\ %l,%c\ %p%%\ 
