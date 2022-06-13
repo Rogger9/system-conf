@@ -11,7 +11,7 @@
   "editor.cursorSmoothCaretAnimation": true,
   "files.autoSave": "onFocusChange",
   "editor.fontSize": 14,
-  "workbench.iconTheme": "vscode-icons-mac",
+  "workbench.iconTheme": "vscode-icons",
   "editor.tabSize": 2,
   "window.zoomLevel": 1, //-.05
   "update.mode": "manual",
@@ -31,24 +31,18 @@
   "terminal.integrated.fontWeight": "normal",
   "terminal.integrated.letterSpacing": 1,
   "editor.inlineSuggest.enabled": true,
-  // "editor.tabCompletion": "on",
-  // "editor.acceptSuggestionOnEnter": "off",
-  // "security.workspace.trust.untrustedFiles": "open",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+  "vsicons.presets.hideFolders": true,
+  "files.associations": {
+    ".env*": "env"
+  },
   "telemetry.telemetryLevel": "off",
   "workbench.editor.showIcons": false, // removes icon from opened files in tabs
-  "editor.folding": true, // removes the folding feature (show/hiddle block code)
-  "editor.trimAutoWhitespace": true,
-  "workbench.editor.tabSizing": "fit",
-  "vsicons.presets.hideExplorerArrows": false, // hidden arrows left folders
-  // "editor.colorDecorators": false, // Elimina los recuadros de color
-  "files.trimTrailingWhitespace": true, // Remueve los espacios extras al final de una línea
-  // "explorer.autoReveal": false, // Evita que se desplieguen los archivos al seleccionarlos
+  "editor.folding": false, // removes the folding feature (show/hiddle block code)
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  // "prettier.requireConfig": true,
-  "minify.html": {
-    "removeComments": true
-  },
   "javascript.updateImportsOnFileMove.enabled": "always",
   // Prettier
   "prettier.printWidth": 100,
@@ -56,5 +50,5 @@
   "prettier.singleQuote": true,
   "prettier.jsxSingleQuote": true,
   "prettier.arrowParens": "avoid",
-  "prettier.trailingComma": "none"
+  "oneDarkPro.markdownStyle": false
 }
