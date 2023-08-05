@@ -1,0 +1,107 @@
+{
+  // "editor.fontFamily": "Cascadia Code",
+  "editor.fontFamily": "CaskaydiaCove NF",
+  // "editor.fontFamily": "Droid Sans Mono",
+  "editor.fontWeight": "500",
+  "editor.fontLigatures": false,
+  "workbench.colorTheme": "One Dark Pro Flat",
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "none",
+  "editor.cursorBlinking": "solid",
+  "editor.cursorStyle": "line",
+  "editor.cursorWidth": 3,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "files.autoSave": "onFocusChange",
+  "editor.fontSize": 14,
+  "editor.tabSize": 2,
+  // "editor.mouseWheelZoom": true,
+  ///////////////////////////////////////////////////////////////
+  "editor.scrollbar.vertical": "hidden",
+  "editor.scrollbar.verticalScrollbarSize": 8,
+  "editor.guides.indentation": false,
+  "editor.glyphMargin": false, // debugger points
+  "indenticator.width": 0.1,
+  "indenticator.color.dark": "rgba(255,255,255,0.1)",
+  "update.mode": "manual",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+  //////////////////////////////////////////////////////////////
+  // workbench
+  "workbench.editor.showTabs": false,
+  "workbench.colorCustomizations": {
+    "editorCursor.foreground": "#CCCA"
+    // "editorBracketHighlight.foreground1": "#CCCAC2",
+    // "editorBracketHighlight.foreground2": "#e0c976",
+    // "editorBracketHighlight.foreground3": "#FFAD66",
+    // "editorBracketHighlight.foreground4": "#A5B97B"
+  },
+  "workbench.startupEditor": "none",
+  "workbench.activityBar.visible": false, // removes the activity bar (the 4 icons at the left of the screen)
+  "window.menuBarVisibility": "toggle",
+  "editor.matchBrackets": "near",
+  "editor.occurrencesHighlight": false, // elimina que le resalte la palabra al hacer 1 click
+  "editor.multiCursorModifier": "ctrlCmd", // multi cursor
+  "terminal.integrated.cursorStyle": "block",
+  "terminal.integrated.cursorWidth": 8,
+  "terminal.integrated.fontFamily": "CaskaydiaCove NF",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontWeight": "normal",
+  "terminal.integrated.letterSpacing": 1,
+  "editor.inlineSuggest.enabled": true,
+  "editor.wordWrap": "on",
+  "telemetry.telemetryLevel": "off",
+  "workbench.editor.showIcons": false, // removes icon from opened files in tabs
+  "editor.folding": false, // removes the folding feature (show/hiddle block code)
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  // Prettier
+  "prettier.printWidth": 100,
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": true,
+  "prettier.arrowParens": "avoid",
+  "editor.linkedEditing": true,
+  "extensions.ignoreRecommendations": true,
+  "window.zoomLevel": 1.2,
+  "workbench.iconTheme": "material-icon-theme",
+  "material-icon-theme.activeIconPack": "nest",
+  "material-icon-theme.folders.theme": "none",
+  "material-icon-theme.files.associations": {
+    "*.ts": "../../icons/ts",
+    "*.d.ts": "../../icons/ts-def",
+    "*.js": "../../icons/js",
+    "*.example": "Tune"
+  },
+  // "material-icon-theme.hidesExplorerArrows": true
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "breadcrumbs.enabled": false,
+  "json.validate.enable": false,
+  "[shellscript][dotenv][ignore]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python",
+  },
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+  "[go]": {
+    "editor.defaultFormatter": "golang.go",
+    "editor.fontLigatures": true
+  },
+  "[astro]": {
+    "editor.defaultFormatter": "astro-build.astro-vscode"
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "DotJoshJohnson.xml"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+}

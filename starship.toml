@@ -1,0 +1,28 @@
+add_newline = false
+
+[character]
+# success_symbol = "[](bold)"
+
+[line_break]
+disabled = true
+
+[directory]
+style = "bold blue"
+truncation_length = 2
+
+[time]
+disabled = true
+
+[git_status]
+
+[git_branch]
+truncation_length = 16
+
+[package]
+disabled = true
+
+[nodejs]
+disabled = true
+
+[docker_context]
+format = "via [🐋 $context](blue bold)"
